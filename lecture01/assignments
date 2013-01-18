@@ -1,13 +1,16 @@
-1. Install git.
+ -  Install git.
 	sudo apt-get install git-core
 
-2. Create .vimrc
+ -  Add export EDITOR=vi to .bashrc
 
-3. Clone cmacfarl/MIT6.096
+ -  Create .vimrc
+
+ -  Clone cmacfarl/MIT6.096
 	git clone https://github.com/cmacfarl/MIT6.096
 
-4. Compile hello_world.cpp
+ -  Compile hello_world.cpp
 
-5. Run executable.
+ -  Run executable.
 
-6. Modify hello_world.cpp to output something of your choosing. 
+ -  Modify hello_world.cpp to output something of your choosing. 
+
