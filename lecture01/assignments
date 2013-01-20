@@ -1,9 +1,9 @@
  -  Install git.
 	sudo apt-get install git-core
 
- -  Add export EDITOR=vi to .bashrc
+ -  Add export EDITOR=vi and PATH to .bashrc
 
- -  Create .vimrc
+ -  Create .vimrc (copy mine)
 
  -  Clone cmacfarl/MIT6.096
 	git clone https://github.com/cmacfarl/MIT6.096
@@ -13,4 +13,8 @@
  -  Run executable.
 
  -  Modify hello_world.cpp to output something of your choosing. 
+
+ -  hello_world_err.cpp has a syntax error.  Compile the
+    file, note what the compiler outputs and then find and 
+    fix the error.
 
