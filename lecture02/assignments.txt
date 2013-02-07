@@ -9,4 +9,5 @@
 2. Write a program that asks the user for 5 numbers and prints
    out the largest number that the user entered.
 
-
+   A skeleton program has been provided for you:
+		lecture02/max.cpp
