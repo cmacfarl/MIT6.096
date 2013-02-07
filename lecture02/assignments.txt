@@ -1,0 +1,12 @@
+
+1. Write a program that outputs Hello World 'n' times
+   where 'n' is a number entered by the user using a for
+   loop, a while loop and a do while loop.
+
+   A skeleton program has been provided for you: 
+		lecture02/hello_world.cpp
+
+2. Write a program that asks the user for 5 numbers and prints
+   out the largest number that the user entered.
+
+
