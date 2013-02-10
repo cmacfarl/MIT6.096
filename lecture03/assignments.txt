@@ -1,0 +1,33 @@
+
+1. Up until now your executable programs have been named a.out.
+   To name your program something else use the -o option to g++.
+
+   For example to name hello_world 'hw' use
+
+     g++ hello_world.cpp -o hw
+
+   When you run your program instead of a.out, type hw at the command
+   prompt.
+
+2. Write a program that will output a right isosceles triangle of
+   height and width N where N is a number entered by the user.
+
+   For example:
+
+	Enter number: 6
+	*
+	**
+	***
+	****
+	*****
+	******
+
+3. Modify reverse.cpp so that it prints a word entered on the command
+   line in reverse.
+
+   For example:
+
+   reverse foobar
+   barfoo	
+
+
