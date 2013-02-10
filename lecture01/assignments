@@ -6,7 +6,7 @@
  -  Create .vimrc (copy mine)
 
  -  Clone cmacfarl/MIT6.096
-	git clone https://github.com/cmacfarl/MIT6.096
+	git clone http://github.com/cmacfarl/MIT6.096
 
  -  Compile hello_world.cpp
 
