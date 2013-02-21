@@ -1,0 +1,10 @@
+
+1. Write a single sum function that will take an arbitrary number
+   of integers and return their sum.  It should take two arguments
+   include a loop, and return an integer.
+     Template: lecture04/sum.cpp
+
+2. Write a function printArray() to print the contents of an integer
+   array with the string ", " between each integer.
+     Template: lecture04/print.cpp
+
