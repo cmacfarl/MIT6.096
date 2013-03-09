@@ -1,0 +1,59 @@
+
+Write a program that takes a filename as input and
+
+  - counts the number of lines in a file
+    where a line is terminated by a \n character
+  - finds the longest line in the file.
+  - outputs a . for each character and a newline
+    at the end of each line.
+
+For example, given a file named foo that contains the following
+
+  My daddy said that I can
+  get a puppy only
+  if I get 1,000,000 likes!
+  Please like
+
+Would output
+
+  cmacfarl@cmacfarl-VirtualBox:~/MIT6.096/lecture05$ a.out foo.txt
+  .........................
+  .................
+  ..........................
+  ............
+  .
+  foo.txt has 4 lines.
+  The longest line is 26 characters
+
+Skeleton: 
+  lecture05/line_count.cpp
+
+===========================================================================
+
+
+For the next several problems, you should put your class 
+definitions and function prototypes in a header file called 
+geometry.h, and your function definitions in a file called
+geometry.cpp. 
+
+In this assignment you will implement a class representing a 
+point, appropriately named Point.
+
+ - Create the class with two private ints. Name them x and y.
+ - Implement a single constructor that, if called with 0 arguments, 
+   initializes a point to the origin – (0, 0) – but if called with 
+   two arguments x and y, creates a point located at (x, y).
+   Hint: You will need to use default arguments.
+ - Support the following operations using the given function signatures:
+    • Get the x coordinate
+	 	int Point::getX() const
+	• Get the y coordinate
+		int Point::getY() const
+	• Set the x coordinate
+		void Point::setX(const int new x)
+	• Set the y coordinate
+		void Point::setY(const int new y)
+
+There is no skeleton for this assignement.  Please refer to
+the lecture notes for examples.
+
