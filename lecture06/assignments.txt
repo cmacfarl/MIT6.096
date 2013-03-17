@@ -1,0 +1,43 @@
+
+Bunnies Part One
+
+	Create a class called Bunny.
+
+	Each bunny has the following properties
+
+	  Gender: Male, Female
+	  Color: White, Brown, Black, Spotted
+	  Age
+	  Name: Randomly chosen at creation from an array of bunny names
+	  Radioactive: True, False 
+
+	The bunny class has the following member functions
+
+	  gender_to_str() - converts the bunny's gender to a string
+	  color_to_str() - converts the bunny's color to a string
+	  print() - prints the bunny name and other properties
+	  have_birthday() - increments the bunny's age
+	  make_radioactive() - self explanatory
+	  is_radioactive() - returns true if radioactive
+
+	Instantiate five instances of a bunny and call the
+	print member function for each.
+
+	Use the provided rand class to generate random numbers.
+    You may use two instances of rand to return numbers within 
+	different ranges.  e.g.
+
+		Rand color_rand(4);
+		Rand gender_rand(2);
+
+		color_rand returns a random number between 0 and 3.
+		gender_rand returns a random number between 0 and 1
+
+	Use these to index into an enumeration containing the values
+	for a particular property.
+
+Bunnies Part Two
+
+	TBD
+
+
